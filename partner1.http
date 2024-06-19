@@ -1,0 +1,10 @@
+GET http://localhost:3000/events
+
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+  "name": "New Event",
+  "date": "2017-01-01T00:00:00",
+  "location": "New York"
+}
